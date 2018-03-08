@@ -9,7 +9,8 @@ restoredefaultpath
 run ./matconvnet-1.0-beta23/matlab/vl_setupnn
 
 %load preproc_x20_ellipse_fullfbp.mat
-load dft_mask_75.mat
+%load dft_mask_75.mat
+load radial_mask_20.mat
 W   = 512; % size of patch
 Nimg= 500; % # of train + test set
 Nimg_test= fix(Nimg*0.05);
